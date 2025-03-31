@@ -14,6 +14,6 @@ app.include_router(routers_produtos.router)
 # Iniciando o servidor
 @app.get("/")
 def home() -> Dict[str, str]:
-    global ConstanteMensagemHome
-    return {"mensagem": ConstanteMensagemHome}
+    global MENSAGEM_HOME
+    return {"mensagem": MENSAGEM_HOME}
 
