@@ -1,5 +1,5 @@
-from fastapi import APIRouter # type: ignore
 from typing import List
+from fastapi import APIRouter # type: ignore
 from app.models.models_usuarios import Usuario
 
 router = APIRouter()

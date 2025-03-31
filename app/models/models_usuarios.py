@@ -4,3 +4,4 @@ from pydantic import BaseModel # type: ignore
 class Usuario(BaseModel):
     id: int
     nome: str
+    

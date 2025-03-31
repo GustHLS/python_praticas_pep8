@@ -1,5 +1,5 @@
-from pydantic import BaseModel # type: ignore
 from typing import List
+from pydantic import BaseModel # type: ignore
 
 # Modelo base para produto
 class ProdutoBase(BaseModel):

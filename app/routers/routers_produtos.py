@@ -1,7 +1,6 @@
-from fastapi import APIRouter, HTTPException # type: ignore
 from typing import List, Dict
+from fastapi import APIRouter, HTTPException # type: ignore
 from app.models.models_produtos import Produto, CriarProduto, HistoricoCompras, Preferencias
-
 from .routers_usuarios import usuarios
 
 router = APIRouter()
