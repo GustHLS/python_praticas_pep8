@@ -104,7 +104,7 @@ def recomendar_produtos(usuario_id: int, preferencias: Preferencias) -> List[Pro
     produtos_recomendados_filtrados = []
 
     for produto in produtos_recomendados_categorias:
-        for tag in produto.tag:
+        for tag in produto.tags:
             if tag in preferencias.tags:
                 produtos_recomendados_filtrados.append(produto)
                 break
